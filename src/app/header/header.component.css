@@ -1,0 +1,28 @@
+/* header.component.css */
+.app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  .logo {
+    height: 30px; /* Adjust logo size */
+  }
+  
+  .app-title {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .navigation a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+  }

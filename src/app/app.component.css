@@ -1,0 +1,25 @@
+/* app.component.css */
+/* app.component.css */
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .flex-grow {
+    flex-grow: 1;
+    overflow: auto;  
+  }
+  
+  
+  app-header {
+    flex-shrink: 0;  
+  }
+  
+  router-outlet {
+    flex-grow: 1;  
+    overflow: auto;  
+}
+  app-footer {
+    flex-shrink: 0;
+  }

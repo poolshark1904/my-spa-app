@@ -1,0 +1,94 @@
+.current-weather-card {
+  max-width: 600px; /* Or your preferred width */
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  color: #212529;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.weather-icon-temp {
+  display: flex;
+  align-items: center;
+}
+
+.weather-icon {
+  width: 50px; /* Adjust based on your icon size */
+  margin-right: 1rem;
+}
+
+.temp {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.celsius {
+  font-size: 2rem;
+}
+
+.real-feel {
+  margin-left: 1rem;
+  font-size: 1rem;
+  color: #666666;
+}
+
+.weather-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weather-condition {
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.weather-stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically centers the content in the flex container */
+  }
+  
+
+  .weather-stat {
+    display: flex;
+    justify-content:end; /* Aligns the first span to the left and the second span to the right */
+    margin-bottom: 0.5rem; /* Keeps some space between each stat */
+  }
+  
+
+.air-quality.good {
+  color: #28a745; /* Bootstrap green */
+}
+
+.card-footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #e0e0e0;
+}
+
+.weather-more-details {
+  color: #007bff; /* Bootstrap blue */
+  text-decoration: none;
+}
+
+.weather-more-details:hover {
+  text-decoration: underline;
+}
+
+.weather-current-time {
+  font-weight: normal;
+  color: #666666;
+}
+
+.weather-current-location {
+    font-weight: normal;
+  }
